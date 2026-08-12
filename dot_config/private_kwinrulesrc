@@ -1,0 +1,59 @@
+[028ade00-e8d8-464c-8bca-db97dabab894]
+Description=Window settings for firefox
+above=true
+aboverule=2
+acceptfocusrule=2
+fsplevel=4
+fsplevelrule=2
+position=946,532
+positionrule=4
+size=334,188
+sizerule=4
+skiptaskbar=true
+skiptaskbarrule=2
+title=Picture-in-Picture
+titlematch=1
+types=1
+wmclass=firefox
+wmclassmatch=1
+
+[2a39ca4a-8ddf-4884-b106-b5df7d0f4aff]
+Description=Window settings for zen
+above=true
+aboverule=2
+acceptfocusrule=2
+position=958,539
+positionrule=4
+size=322,181
+sizerule=4
+skiptaskbar=true
+skiptaskbarrule=2
+title=Picture-in-Picture
+titlematch=1
+types=1
+wmclass=zen
+wmclassmatch=1
+
+[762d60cf-2fc6-4725-9b4c-df90ca9b297b]
+Description=Window settings for zen
+above=true
+aboverule=2
+title=Picture-in-Picture
+types=1
+wmclass=zen-bin zen
+wmclasscomplete=true
+wmclassmatch=1
+
+[88bff0e9-c382-4b9c-84ec-69029b51633c]
+Description=Window settings for zen
+layer=overlay
+layerrule=2
+title=Picture-in-Picture
+types=1
+wmclass=zen-bin zen
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=3
+rules=2a39ca4a-8ddf-4884-b106-b5df7d0f4aff,88bff0e9-c382-4b9c-84ec-69029b51633c,028ade00-e8d8-464c-8bca-db97dabab894

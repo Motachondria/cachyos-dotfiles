@@ -1,0 +1,18 @@
+# Local secrets / authentication
+*.local
+*.secret
+
+# Editor / temporary files
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# chezmoi temporary files
+.chezmoi.*

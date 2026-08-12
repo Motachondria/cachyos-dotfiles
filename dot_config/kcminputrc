@@ -1,0 +1,21 @@
+[Keyboard]
+NumLock=0
+RepeatDelay=200
+
+[Libinput][1267][12423][ELAN1300:00 04F3:3087 Mouse]
+ScrollMethod=4
+
+[Libinput][1267][12423][ELAN1300:00 04F3:3087 Touchpad]
+Enabled=false
+MiddleButtonEmulation=true
+NaturalScroll=true
+PointerAcceleration=0.400
+ScrollFactor=0.75
+ScrollMethod=1
+
+[Libinput][7119][2208][HID 1bcf:08a0 Mouse]
+MiddleButtonEmulation=true
+PointerAcceleration=0.400
+
+[Mouse]
+cursorSize=64

@@ -1,0 +1,20 @@
+--paths /mnt/slave/Youtube
+
+-o "%(uploader)s/%(playlist_title,playlist)s/%(title)s [%(id)s].%(ext)s"
+
+-f bv*+ba/b
+
+--merge-output-format mkv
+
+--embed-metadata
+--embed-thumbnail
+
+--write-description
+--write-info-json
+
+--no-mtime
+
+--continue
+--no-overwrites
+
+--concurrent-fragments 15
